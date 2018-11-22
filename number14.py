@@ -1,9 +1,10 @@
-def removeNonInt(lists):
-	for x in range(len(lists)):
-		if type(lists[x]) != type(int()):
-			lists.pop(x)
-			break
-	return lists
+def remove_non_int(lists):
+	newList = []
+	for x in lists:
+		if type(x) != type(int()) :
+			lists.remove(x)
+		else:
+			newList.append(x)
+	return newList
 
-#Not yet Done
-print(removeNonInt([2,'a','2', {1: 'one'}]))
+print(remove_non_int([2,'a','2', {1: 'one'}]))

@@ -4,4 +4,4 @@ def find_index(lists,value):
 			result = x
 	return result
 
-print(find_index(list((1,3,4)),4))
+print(find_index(list((1,3,4)),3))

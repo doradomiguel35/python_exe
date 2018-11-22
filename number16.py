@@ -1,4 +1,4 @@
 def stringToList(string):
-	print(list((string[slice(0,len(string))])))
-	
+	print(list((map(int,string))))
+
 stringToList(str(2535))

@@ -1,8 +1,8 @@
-def contains(list,value):
+def value_contains(list,value):
 	if value in list:
 		result = True
 	else: 
 		result = False
 	return result
 
-print(contains(list((1,2,3)),3))
+print(value_contains(list((1,2,3)),3))

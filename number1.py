@@ -1,4 +1,4 @@
-def dictGroup(group,lists):
+def dict_Group(group,lists):
 	dictionary = dict()
 	for x in range(len(group)):
 		for y in range(len(lists)):
@@ -9,4 +9,4 @@ def dictGroup(group,lists):
 	return dictionary 
 
 
-print(dictGroup(["A","B"],[['Jay','Anna'],['Kim','Kc']]))
+print(dict_Group(["A","B"],[['Jay','Anna'],['Kim','Kc']]))
