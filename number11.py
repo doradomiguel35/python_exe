@@ -1,7 +1,12 @@
 def find_Object(lists,properties):
-	result = properties		
+	find = properties['index']
+	result = set(())
+	for x in lists:
+		if find == x['index']:
+			result = x
+
 	return result
-#Not yet Done
+
 mylist = [{1:'one','index':0},{2:'two','index':1},{3:'three','index': 2}]
-print(find_Object(mylist,{'index': 1}))
+print(find_Object(mylist,{'index': 2}))
 
