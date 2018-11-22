@@ -1,6 +1,5 @@
 def remove_Duplicates(lists):
-	lists = set(lists)
-	lists = list(lists)
+	lists = list(set(lists))
 	return lists
 
 
