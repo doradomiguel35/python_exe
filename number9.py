@@ -1,7 +1,8 @@
-def unique(list):
+def display_unique(list):
 	for x in list:
 		if x in list:
-			list.remove(x)
+			list.pop(x)
+			break
 	print(list)
 #Not yet Done
-unique([1,2,3,1,3])
+display_unique([1,2,3,1,3])
