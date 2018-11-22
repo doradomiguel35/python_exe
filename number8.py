@@ -1,8 +1,6 @@
 def remove_Duplicates(lists):
-	for x in range(len(lists)):
-		if lists[x] in lists :
-			lists.pop(x)
-			break
+	lists = set(lists)
+	lists = list(lists)
 	return lists
 
 
