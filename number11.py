@@ -1,6 +1,8 @@
-def findObject(lists,property):
-	return property
-
+def find_Object(lists,properties):
+	result = []
+	for x in lists:
+		print(properties)
 #Not yet Done
-mylist = list((dict(1='one',index=0),dict(2='two',index=1),dict(3='three',index=2)))
-print(findObject(mylist,{'index': 1}))
+mylist = [{1:'one','index':0},{2:'two','index':1},{3:'three','index': 2}]
+print(find_Object(mylist,{'index': 1}))
+
